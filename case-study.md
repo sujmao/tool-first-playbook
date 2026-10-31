@@ -14,6 +14,7 @@ Bili23-Downloader 的 MCP：
 - **傳輸 / Transport**：HTTP，`http://127.0.0.1:<port>/mcp`，Bearer Token 鑑權，JSON-RPC 2.0。
 - **開啟方式 / How to enable**：改應用設定檔（應用標準設定目錄下的 `config.json`）——`MCP.mcp_enabled = true`，設定 `mcp_port` 與 `mcp_token`，重啟應用。
   Edit the app config (`config.json` in the app's standard settings dir): set `MCP.mcp_enabled = true`, set `mcp_port` and `mcp_token`, then restart.
+- **連接 / 斷聯 / Connect & disconnect**：見 [MCP-CONNECT.md](MCP-CONNECT.md)——用 HTTP 模式，開應用即連、關應用即斷，避免 Claude CLI 連帶啟動 Bili23。See MCP-CONNECT.md: HTTP mode — open the app to connect, quit to disconnect, so Claude CLI never auto-launches Bili23.
 - **工具清單 / Tools**：`parse_url` / `get_episodes` / `create_download` / `list_tasks` / `get_task_status` / `get_login_status` / `pause_task` / `resume_task` / `cancel_task`。
 
 ## 為什麼「不直接打 B 站 API」/ Why not hit the Bilibili API directly

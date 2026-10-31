@@ -27,6 +27,7 @@ Inventory existing tools first; let the mature tool do what it does best (auth, 
 |---|---|
 | [PRINCIPLES.md](PRINCIPLES.md) | 方法論：工具優先的決策框架 / Tool-first decision framework |
 | [case-study.md](case-study.md) | 案例：Bili23-Downloader MCP 批量下載全流程 / Full workflow |
+| [MCP-CONNECT.md](MCP-CONNECT.md) | 連接 / 斷聯 Bili23 MCP 的開關方式 / Connect & disconnect the Bili23 MCP |
 | [PITFALLS.md](PITFALLS.md) | 踩坑清單（核心，逐條可查）/ Pitfall list (core reference) |
 
 ## 適用讀者 / Who this is for
